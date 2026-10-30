@@ -1,0 +1,161 @@
+/* --- Global Reset & Base Styling --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF0F3; /* Bright, clean soft pink background */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: #FFB3C6; /* True vibrant pastel pink */
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 3px solid #FF8FA3;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #851C36; /* Deep rich magenta-rose text */
+}
+
+header .subtitle {
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1.1rem;
+    color: #A33351; /* Strong pink-rose tone */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #851C36;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D90429; /* Bold vibrant pink/red accent on hover */
+}
+
+/* --- Main Content Layout --- */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* --- Content Sections & Cards --- */
+section {
+    background: #FFFFFF;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid #FFCCD5;
+}
+
+h2 {
+    color: #851C36;
+    margin-top: 0;
+    border-bottom: 2px solid #FFB3C6;
+    padding-bottom: 0.3rem;
+}
+
+h3 {
+    color: #A33351;
+}
+
+/* --- Images & Logos --- */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logos img {
+    max-height: 60px;
+    width: auto;
+    margin: 0;
+}
+
+/* --- Professional Experience Layout --- */
+.job {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #FFE5EC;
+}
+
+.job:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.company-date {
+    font-size: 0.95rem;
+    color: #A33351;
+}
+
+/* --- Contact Form Styling --- */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #FF8FA3;
+    border-radius: 4px;
+    background-color: #FFF0F3;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #851C36;
+}
+
+.contact-form button {
+    background-color: #851C36;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.contact-form button:hover {
+    background-color: #591223;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #FFB3C6;
+    color: #851C36;
+    font-size: 0.9rem;
+    border-top: 1px solid #FF8FA3;
+}
